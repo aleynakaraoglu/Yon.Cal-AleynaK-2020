@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">120256052375-ui0nqdt58dgq6avgmrlqhc5jac4qmf87.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://e-ticaret-828a5.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">120256052375</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDOllR_BJsmFAD0MGIGhpLWSx0bKKZHHY</string>
+    <string name="google_app_id" translatable="false">1:120256052375:android:12c599c5f5aec99c8cbdd2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDOllR_BJsmFAD0MGIGhpLWSx0bKKZHHY</string>
+    <string name="google_storage_bucket" translatable="false">e-ticaret-828a5.appspot.com</string>
+    <string name="project_id" translatable="false">e-ticaret-828a5</string>
+</resources>
