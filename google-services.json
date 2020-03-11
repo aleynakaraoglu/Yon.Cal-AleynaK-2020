@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "120256052375",
+    "firebase_url": "https://e-ticaret-828a5.firebaseio.com",
+    "project_id": "e-ticaret-828a5",
+    "storage_bucket": "e-ticaret-828a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120256052375:android:12c599c5f5aec99c8cbdd2",
+        "android_client_info": {
+          "package_name": "com.example.e_ticart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120256052375-ui0nqdt58dgq6avgmrlqhc5jac4qmf87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDOllR_BJsmFAD0MGIGhpLWSx0bKKZHHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120256052375-ui0nqdt58dgq6avgmrlqhc5jac4qmf87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
