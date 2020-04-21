@@ -35,7 +35,7 @@ namespace E_Ticaret
 
         private void kayitOl_Load(object sender, EventArgs e)
         {
-           //con = new SqlConnection("Initial Catalog=E-Ticaret;User ID=aleyna;Password=123123");
+           //con = new SqlConnection("Initial Catalog=Proje;User ID=aleyna;Password=123123");
            //da = new SqlDataAdapter("Select *From tbl_kullanici", con);
            //ds = new DataSet();
            //con.Open();
@@ -53,7 +53,7 @@ namespace E_Ticaret
                 kullanici.Soyadi = tbsoyisim.Text;
                 kullanici.KullaniciAdi = tbkadi.Text;
                 kullanici.Sifre = tbsifre.Text;
-                kullanici.Eposta = tbeposta.Text;
+                kullanici.EPosta = tbeposta.Text;
                 kullanici.Adres = tbadres.Text;
                 kullanici.KayıtTarihi = dateTimePicker1.Value;
 
@@ -73,6 +73,11 @@ namespace E_Ticaret
             {
                 MessageBox.Show(hata.Message);
             }
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
 
         }
     }

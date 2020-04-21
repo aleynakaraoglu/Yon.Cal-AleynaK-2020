@@ -22,7 +22,7 @@ namespace E_Ticaret.Database
         DataTable tbl = new DataTable();
         public void Baglan()
         {
-            baglanti = new SqlConnection(@"Data Source=LAPTOP-D2QGEVCK\SQLEXPRESS;Initial Catalog=E-Ticaret;Integrated Security=True;User ID=aleyna;Password=123123");
+            baglanti = new SqlConnection(@"Data Source=LAPTOP-D2QGEVCK\SQLEXPRESS;Initial Catalog=Proje;Integrated Security=True;User ID=aleyna;Password=123123");
 
             if (baglanti.State == ConnectionState.Closed)
             {

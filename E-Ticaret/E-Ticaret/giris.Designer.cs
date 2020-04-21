@@ -34,13 +34,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.kayıtol = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tbgiris = new System.Windows.Forms.Button();
             this.tbsifre = new System.Windows.Forms.TextBox();
             this.tbkadi = new System.Windows.Forms.TextBox();
             this.sifre = new System.Windows.Forms.Label();
             this.kadi = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.tbgiris = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -99,7 +99,6 @@
             this.kayıtol.TabIndex = 10;
             this.kayıtol.Text = "Kayıt Ol";
             this.kayıtol.UseVisualStyleBackColor = true;
-            this.kayıtol.Click += new System.EventHandler(this.kayıtol_Click);
             // 
             // groupBox2
             // 
@@ -115,6 +114,15 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
+            // 
+            // tbgiris
+            // 
+            this.tbgiris.Location = new System.Drawing.Point(170, 148);
+            this.tbgiris.Name = "tbgiris";
+            this.tbgiris.Size = new System.Drawing.Size(75, 23);
+            this.tbgiris.TabIndex = 10;
+            this.tbgiris.Text = "Giriş";
+            this.tbgiris.UseVisualStyleBackColor = true;
             // 
             // tbsifre
             // 
@@ -171,16 +179,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
             // 
-            // tbgiris
-            // 
-            this.tbgiris.Location = new System.Drawing.Point(170, 148);
-            this.tbgiris.Name = "tbgiris";
-            this.tbgiris.Size = new System.Drawing.Size(75, 23);
-            this.tbgiris.TabIndex = 10;
-            this.tbgiris.Text = "Giriş";
-            this.tbgiris.UseVisualStyleBackColor = true;
-            this.tbgiris.Click += new System.EventHandler(this.tbgiris_Click);
-            // 
             // giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,7 +189,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "giris";
             this.Text = "Giriş";
-            this.Load += new System.EventHandler(this.giris_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

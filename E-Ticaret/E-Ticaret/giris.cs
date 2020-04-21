@@ -12,23 +12,14 @@ using System.Windows.Forms;
 namespace E_Ticaret
 {
     public partial class giris : Form
-    {
-        
-        public giris()
-        {
-            InitializeComponent();
-        }
-
-        private void kayıtol_Click(object sender, EventArgs e)
-        {
-            
-           
-
-        }
-        
+    { 
         private void giris_Load(object sender, EventArgs e)
         {
 
+        }
+        public giris()
+        {
+            InitializeComponent();
         }
 
         private void tbgiris_Click(object sender, EventArgs e)

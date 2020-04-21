@@ -21,7 +21,7 @@ namespace E_Ticaret.Database
             komut.Parameters.AddWithValue("@Soyadi", kk.Soyadi);
             komut.Parameters.AddWithValue("@KullaniciAdi", kk.KullaniciAdi);
             komut.Parameters.AddWithValue("@Sifre", kk.Sifre);
-            komut.Parameters.AddWithValue("@Eposta", kk.Eposta);
+            komut.Parameters.AddWithValue("@EPosta", kk.EPosta);
             komut.Parameters.AddWithValue("@Adres", kk.Adres);
             komut.Parameters.AddWithValue("@UrunEklemeYetkisi", kk.UrunEklemeYetkisi);
             komut.Parameters.AddWithValue("@KayıtTarihi", kk.KayıtTarihi);
