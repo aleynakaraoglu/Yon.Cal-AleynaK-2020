@@ -35,7 +35,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.ürünadi = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -79,7 +78,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(245, 84);
+            this.textBox1.Location = new System.Drawing.Point(245, 79);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(272, 20);
             this.textBox1.TabIndex = 4;
@@ -105,16 +104,6 @@
             this.label10.TabIndex = 21;
             this.label10.Text = "HOMEMADE.";
             // 
-            // ürünadi
-            // 
-            this.ürünadi.AutoSize = true;
-            this.ürünadi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.ürünadi.Location = new System.Drawing.Point(79, 205);
-            this.ürünadi.Name = "ürünadi";
-            this.ürünadi.Size = new System.Drawing.Size(51, 20);
-            this.ürünadi.TabIndex = 29;
-            this.ürünadi.Text = "label1";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(57, 121);
@@ -128,9 +117,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(753, 428);
+            this.ClientSize = new System.Drawing.Size(752, 420);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.ürünadi);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnprofil);
@@ -157,7 +145,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label ürünadi;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

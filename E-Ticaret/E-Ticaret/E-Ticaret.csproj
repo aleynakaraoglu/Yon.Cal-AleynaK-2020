@@ -65,11 +65,29 @@
     <Compile Include="giris.Designer.cs">
       <DependentUpon>giris.cs</DependentUpon>
     </Compile>
+    <Compile Include="kategoriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kategoriler.Designer.cs">
+      <DependentUpon>kategoriler.cs</DependentUpon>
+    </Compile>
     <Compile Include="kayitOl.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="kayitOl.Designer.cs">
       <DependentUpon>kayitOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mesajlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mesajlar.Designer.cs">
+      <DependentUpon>mesajlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profil.Designer.cs">
+      <DependentUpon>profil.cs</DependentUpon>
     </Compile>
     <Compile Include="siparisler.cs">
       <SubType>Form</SubType>
@@ -94,8 +112,17 @@
     <EmbeddedResource Include="giris.resx">
       <DependentUpon>giris.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kategoriler.resx">
+      <DependentUpon>kategoriler.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="kayitOl.resx">
       <DependentUpon>kayitOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mesajlar.resx">
+      <DependentUpon>mesajlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profil.resx">
+      <DependentUpon>profil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="siparisler.resx">
       <DependentUpon>siparisler.cs</DependentUpon>
